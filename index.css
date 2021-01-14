@@ -98,21 +98,24 @@ video {
 
 .buttons {
   text-align: center;
-  padding: 3.5em 0;
+  padding: 2em 0;
 }
 
-.buttons a {
-  width: 100px;
-  padding: 25px;
-  margin: 0 6%;
+.buttons button {
+  font-size: 1em;
+  letter-spacing: 2px;
+  width: 150px;
+  padding: 10px 20px;
+  margin: 0 7%;
   border-radius: 12px;
   color: white;
   text-decoration: none;
   transition: 1s;
+  border: none;
 }
 
-.buttons a:hover {
-    color: black;
+.buttons button:hover {
+  color: black;
 }
 
 .buttons #plan {
@@ -137,6 +140,7 @@ video {
   width: 22%;
   border-radius: 50%;
   margin: 2em;
+  margin-left: 10%;
   display: inline-block;
 }
 
@@ -150,14 +154,16 @@ video {
 }
 
 .titleText h1 {
-  font-size: 3.2em;
+  font-size: 310%;
   font-family: "Chelsea Market", cursive;
   padding-bottom: 0.5em;
+  white-space: nowrap;
 }
 
 .titleText p {
   font-size: 1.2em;
   padding-top: 0.5em;
+  text-align: center;
 }
 
 #open {
@@ -168,7 +174,8 @@ video {
 .about {
   background-color: #ddb9a3;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.1em;
+  font-weight: 100;
   padding: 0.5em 2em;
   margin: 0em 2em;
   text-align: center;
